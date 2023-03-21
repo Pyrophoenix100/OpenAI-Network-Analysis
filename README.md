@@ -25,7 +25,14 @@ math
 numpy
 collections
 warnings
+tiktoken
+openai
 ```
 ## Running the Code
 Ensure you have all of the dependencies installed with pip install and run 
 `python main.py`
+## Sources
+```
+trafficgenlib.py sourced from Nguyen, Son Nam (originally as sands.py)
+pcaps sourced from Wireshark 101: Essential Skills for Network Analysis (Chappell University)
+```
