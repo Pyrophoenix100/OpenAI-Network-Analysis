@@ -1,8 +1,8 @@
-#Network Analysis using OpenAI - Capstone Project
-##Project Description
+# Network Analysis using OpenAI - Capstone Project
+## Project Description
 This tool seeks to assess the feasibility and possible solutions for the implementation 
 of OpenAI's GPT models into network automation. 
-##Project Structure
+## Project Structure
 ```
     - traffic/ # A generator for network traffic written by the capstone sponsor
         - generator.py # The library that generates and filters network traffic from a emulated network
@@ -12,7 +12,7 @@ of OpenAI's GPT models into network automation.
         - openaiapi.py # The python file itself. Built as a library.
         - key.txt # (not included in repo) OpenAI API key.
 ```
-##Dependencies
+## Dependencies
 ```
 json
 requests
@@ -26,6 +26,6 @@ numpy
 collections
 warnings
 ```
-##Running the Code
+## Running the Code
 Ensure you have all of the dependencies installed with pip install and run 
 `python main.py`
