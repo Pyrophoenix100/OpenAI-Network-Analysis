@@ -1,5 +1,3 @@
-
-
 import json
 import requests
 import pandas as pd
@@ -12,15 +10,7 @@ import numpy as np
 import collections
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
-
-
-
-
 from os.path import join
-
-
-
-
 
 ## LABELS
 device_inventory_labels = ['device_name','vendor','model','os','version','hw_revision','role','ip_address']
@@ -33,8 +23,6 @@ event_policy_labels = ['policy_name','event_id','period','probability','entity_t
 ## LISTS
 device_metric_list = ['mem_utilization','cpu_utilization','bng_subscribers']
 interface_metric_list = ['traffic_out_mbps','traffic_in_mbps']
-
-
 
 ## DEVICE INVENTORY
 def generate_device_inventory():
@@ -1580,7 +1568,6 @@ def run_incidents_on_events(target_time,incident_policy,event_templates,time_del
             if len(impact['impact_details'])>1:
                 for w in range(int(len(impact['impact_details'])/2)):
                         p = w*2+1
-                       
                         event_name = impact['impact_details'][p+1]
                         entity_column = impact['entity_column']
                         entity_name = impact['entity_name']
