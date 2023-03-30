@@ -10,20 +10,30 @@ class IncidentGenerator:
     event_templates = trafficgenlib.generate_event_templates()
     device_inventory = trafficgenlib.generate_device_inventory()
     interface_inventory = trafficgenlib.generate_interface_inventory()
-    gpt_input = []
+
     #Changed frequency to 60 from 5, significantly faster execution
     #Generates the same device with different timestamp/bng_subscribers.
-    def __init__(self, num_incidents = 10):
+    def __init__(self):
         self.incidents = trafficgenlib.run_incidents_on_events(dt.datetime.now(), self.incident_policy, self.event_templates, 30, self.device_inventory, self.interface_inventory)
-        self.gpt_input = []
-        #Filtering and processing
+
+    def listIncidents(self):
         for i, j in enumerate(self.incidents):
+            print("(" + str(i) + "): " + j['message'])
+
+    def generateNumberIncidents(self, start_incident, end_incident):
+        #Filtering and processing
+        output = []
+        for i, j in enumerate(self.incidents):
+            if i < start_incident:
+                continue
             inp = j['source'] + ": " + j['message']
-            self.gpt_input.append(inp)
-            if i >= num_incidents:
+            output.append(inp)
+            if i >= end_incident - 1:
                 break
-    def generateIncidentsPrompt(self):
+        return output
+
+    def generateIncidentsPrompt(self, incident_list):
         output = ""
-        for i in self.gpt_input:
+        for i in incident_list:
             output += str(i) + "\n"
         return output
