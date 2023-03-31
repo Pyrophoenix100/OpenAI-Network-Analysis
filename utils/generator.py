@@ -14,11 +14,15 @@ class IncidentGenerator:
     #Changed frequency to 60 from 5, significantly faster execution
     #Generates the same device with different timestamp/bng_subscribers.
     def __init__(self):
-        self.incidents = trafficgenlib.run_incidents_on_events(dt.datetime.now(), self.incident_policy, self.event_templates, 30, self.device_inventory, self.interface_inventory)
+        #Sterilize output
+        self.incidents = []
+        incidents = trafficgenlib.run_incidents_on_events(dt.datetime.now(), self.incident_policy, self.event_templates, 30, self.device_inventory, self.interface_inventory)
+        for i, j in enumerate(incidents):
+            self.incidents.append(j['message'])
 
     def listIncidents(self):
         for i, j in enumerate(self.incidents):
-            print("(" + str(i) + "): " + j['message'])
+            print("(" + str(i) + "): " + j)
 
     def generateNumberIncidents(self, start_incident, end_incident):
         #Filtering and processing
@@ -26,7 +30,7 @@ class IncidentGenerator:
         for i, j in enumerate(self.incidents):
             if i < start_incident:
                 continue
-            inp = j['source'] + ": " + j['message']
+            inp = j
             output.append(inp)
             if i >= end_incident - 1:
                 break
@@ -37,3 +41,5 @@ class IncidentGenerator:
         for i in incident_list:
             output += str(i) + "\n"
         return output
+    def loadIncidents(self, incident_list):
+        self.incidents = incident_list

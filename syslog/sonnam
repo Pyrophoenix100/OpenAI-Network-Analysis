@@ -1,0 +1,97 @@
+2023-03-31 09:36:03: shelf_mgr[8990]: %INFRA-SHELF_MGR-3-HW_FAILURE_EVENT : HW failure event HW_EVENT_FAILURE, event_reason_str 'No Input or HW Power Failure' for device PE-57 with hw revision hw3958890
+2023-03-31 09:36:03: if_mgr[8476]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-1 in device PE-57
+2023-03-31 09:36:03: if_mgr[2265]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-2 in device PE-57
+2023-03-31 09:36:03: if_mgr[9976]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-3 in device PE-57
+2023-03-31 09:36:03: if_mgr[4209]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-4 in device PE-57
+2023-03-31 09:36:03: if_mgr[8479]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-2-1 in device PE-57
+2023-03-31 09:36:03: if_mgr[9807]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-2-2 in device PE-57
+2023-03-31 09:37:03: bgp_mgr[2466]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.1.57.1/30 changed state to down in device PE-57
+2023-03-31 09:37:03: bgp_mgr[5022]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.2.57.1/30 changed state to down in device PE-57
+2023-03-31 09:37:03: bgp_mgr[1974]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.3.57.1/30 changed state to down in device PE-57
+2023-03-31 09:37:03: bgp_mgr[9449]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.4.57.1/30 changed state to down in device PE-57
+2023-03-31 09:37:03: bgp_mgr[5807]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.57.1.2/30 changed state to down in device PE-57
+2023-03-31 09:37:03: bgp_mgr[3122]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.57.2.2/30 changed state to down in device PE-57
+2023-03-31 09:38:03: if_mgr[4686]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-1 in device PE-57
+2023-03-31 09:38:03: if_mgr[1699]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-2 in device PE-57
+2023-03-31 09:38:03: if_mgr[7744]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-3 in device PE-57
+2023-03-31 09:38:03: if_mgr[1826]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-4 in device PE-57
+2023-03-31 09:38:03: if_mgr[4965]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-2-1 in device PE-57
+2023-03-31 09:38:03: if_mgr[3371]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-2-2 in device PE-57
+2023-03-31 09:39:03: bgp_mgr[6443]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.1.57.1/30 changed state to up in device PE-57
+2023-03-31 09:39:03: bgp_mgr[9082]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.2.57.1/30 changed state to up in device PE-57
+2023-03-31 09:39:03: bgp_mgr[4332]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.3.57.1/30 changed state to up in device PE-57
+2023-03-31 09:39:03: bgp_mgr[316]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.4.57.1/30 changed state to up in device PE-57
+2023-03-31 09:39:03: bgp_mgr[7398]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.57.1.2/30 changed state to up in device PE-57
+2023-03-31 09:39:03: bgp_mgr[909]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.57.2.2/30 changed state to up in device PE-57
+2023-03-31 09:36:03: lda_server[8202]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-1
+2023-03-31 09:36:03: lda_server[9457]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-2
+2023-03-31 09:36:03: lda_server[3313]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-3
+2023-03-31 09:36:03: lda_server[3250]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-4
+2023-03-31 09:36:03: lda_server[6643]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-2-1
+2023-03-31 09:36:03: lda_server[9685]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-2-2
+2023-03-31 09:36:03: npu_drvr[7013]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-1, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[1280]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-2, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[9523]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-3, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[9331]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-4, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[7749]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-2-1, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[1418]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-2-2, Detected Local Fault
+2023-03-31 09:36:03: if_mgr[5867]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-1 in device PE-10
+2023-03-31 09:36:03: if_mgr[1610]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-2 in device PE-10
+2023-03-31 09:36:03: if_mgr[3255]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-3 in device PE-10
+2023-03-31 09:36:03: if_mgr[6258]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-4 in device PE-10
+2023-03-31 09:36:03: if_mgr[801]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-2-1 in device PE-10
+2023-03-31 09:36:03: if_mgr[2039]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-2-2 in device PE-10
+2023-03-31 09:37:03: bgp_mgr[4730]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.1.10.1/30 changed state to down in device PE-10
+2023-03-31 09:37:03: bgp_mgr[7479]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.2.10.1/30 changed state to down in device PE-10
+2023-03-31 09:37:03: bgp_mgr[783]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.3.10.1/30 changed state to down in device PE-10
+2023-03-31 09:37:03: bgp_mgr[8591]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.4.10.1/30 changed state to down in device PE-10
+2023-03-31 09:37:03: bgp_mgr[8684]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.1.2/30 changed state to down in device PE-10
+2023-03-31 09:37:03: bgp_mgr[4630]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.2.2/30 changed state to down in device PE-10
+2023-03-31 09:39:03: if_mgr[3634]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-1 in device PE-10
+2023-03-31 09:39:03: if_mgr[2473]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-2 in device PE-10
+2023-03-31 09:39:03: if_mgr[8897]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-3 in device PE-10
+2023-03-31 09:39:03: if_mgr[5156]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-4 in device PE-10
+2023-03-31 09:39:03: if_mgr[3492]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-2-1 in device PE-10
+2023-03-31 09:39:03: if_mgr[4884]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-2-2 in device PE-10
+2023-03-31 09:40:03: bgp_mgr[9326]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.1.10.1/30 changed state to up in device PE-10
+2023-03-31 09:40:03: bgp_mgr[3909]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.2.10.1/30 changed state to up in device PE-10
+2023-03-31 09:40:03: bgp_mgr[24]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.3.10.1/30 changed state to up in device PE-10
+2023-03-31 09:40:03: bgp_mgr[2332]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.4.10.1/30 changed state to up in device PE-10
+2023-03-31 09:40:03: bgp_mgr[2482]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.1.2/30 changed state to up in device PE-10
+2023-03-31 09:40:03: bgp_mgr[5345]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.2.2/30 changed state to up in device PE-10
+2023-03-31 09:36:03: lda_server[2992]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-10
+2023-03-31 09:36:03: lda_server[3017]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-10
+2023-03-31 09:36:03: lda_server[1466]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-10
+2023-03-31 09:36:03: lda_server[227]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-10
+2023-03-31 09:36:03: lda_server[6335]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-1
+2023-03-31 09:36:03: lda_server[6785]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 HIGH WARNING :CLEAR et-1-1-1
+2023-03-31 09:36:03: npu_drvr[9385]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-10, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[6763]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-10, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[565]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-10, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[5675]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-10, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[9260]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-1, Detected Local Fault
+2023-03-31 09:36:03: npu_drvr[2754]: %PLATFORM-VETH_PD-2-RX_FAULT : Interface et-1-1-1, Detected Local Fault
+2023-03-31 09:36:03: if_mgr[2919]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-10 in device C-1
+2023-03-31 09:36:03: if_mgr[9392]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-10 in device C-2
+2023-03-31 09:36:03: if_mgr[4161]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-10 in device C-3
+2023-03-31 09:36:03: if_mgr[8721]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-10 in device C-4
+2023-03-31 09:36:03: if_mgr[5591]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-1 in device E-10-1
+2023-03-31 09:36:03: if_mgr[1060]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to down: et-1-1-1 in device E-10-2
+2023-03-31 09:37:03: bgp_mgr[1935]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.1.10.2/30 changed state to down in device C-1
+2023-03-31 09:37:03: bgp_mgr[5334]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.2.10.2/30 changed state to down in device C-2
+2023-03-31 09:37:03: bgp_mgr[278]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.3.10.2/30 changed state to down in device C-3
+2023-03-31 09:37:03: bgp_mgr[6281]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.4.10.2/30 changed state to down in device C-4
+2023-03-31 09:37:03: bgp_mgr[2351]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.1.1/30 changed state to down in device E-10-1
+2023-03-31 09:37:03: bgp_mgr[3790]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.2.1/30 changed state to down in device E-10-2
+2023-03-31 09:39:03: if_mgr[533]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-10 in device C-1
+2023-03-31 09:39:03: if_mgr[3978]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-10 in device C-2
+2023-03-31 09:39:03: if_mgr[5135]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-10 in device C-3
+2023-03-31 09:39:03: if_mgr[2961]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-10 in device C-4
+2023-03-31 09:39:03: if_mgr[5979]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-1 in device E-10-1
+2023-03-31 09:39:03: if_mgr[7955]: %INTF-STATE_MGR-3-STATE_CHANGE_EVENT : Interface changed state to up: et-1-1-1 in device E-10-2
+2023-03-31 09:40:03: bgp_mgr[7768]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.1.10.2/30 changed state to up in device C-1
+2023-03-31 09:40:03: bgp_mgr[7825]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.2.10.2/30 changed state to up in device C-2
+2023-03-31 09:40:03: bgp_mgr[6480]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.3.10.2/30 changed state to up in device C-3
+2023-03-31 09:40:03: bgp_mgr[7991]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 11.4.10.2/30 changed state to up in device C-4
+2023-03-31 09:40:03: bgp_mgr[1938]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.1.1/30 changed state to up in device E-10-1
+2023-03-31 09:40:03: bgp_mgr[9705]: %BGP-STATE_MGR-3-STATE_CHANGE_EVENT : BGP session to 12.10.2.1/30 changed state to up in device E-10-2
