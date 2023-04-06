@@ -16,9 +16,6 @@ class IncidentGenerator:
     def __init__(self):
         #Sterilize output
         self.incidents = []
-        incidents = trafficgenlib.run_incidents_on_events(dt.datetime.now(), self.incident_policy, self.event_templates, 30, self.device_inventory, self.interface_inventory)
-        for i, j in enumerate(incidents):
-            self.incidents.append(j['message'])
 
     def listIncidents(self):
         for i, j in enumerate(self.incidents):
@@ -43,3 +40,8 @@ class IncidentGenerator:
         return output
     def loadIncidents(self, incident_list):
         self.incidents = incident_list
+    
+    def generateIncident(self, length):
+        incidents = trafficgenlib.run_incidents_on_events(dt.datetime.now(), self.incident_policy, self.event_templates, length, self.device_inventory, self.interface_inventory)
+        for i, j in enumerate(incidents):
+            self.incidents.append(j['message'])

@@ -1,0 +1,71 @@
+10.12.1.1	Mar 22 11:15:27		local7	err	82	*Mar 22 11:14:45.086: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/0, changed state to down
+10.12.1.1	Mar 22 11:15:31		local7	err	83	*Mar 22 11:14:49.154: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/0, changed state to up
+192.168.0.1	Apr 04 17:50:57		local7	err	79	*Apr  4 22:51:01.712: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/0, changed state to down
+192.168.0.1	Apr 04 17:50:57		local7	notice	80	*Apr  4 22:51:02.713: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/0, changed state to down
+192.168.0.1	Apr 04 17:51:03		local7	err	81	*Apr  4 22:51:07.530: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/0, changed state to up
+192.168.0.1	Apr 04 17:51:03		local7	notice	82	*Apr  4 22:51:08.530: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/0, changed state to up
+192.168.0.1	Apr 04 17:51:17		local7	notice	83	*Apr  4 22:51:21.364: %OSPF-5-ADJCHG: Process 1, Nbr 10.0.0.2 on GigabitEthernet0/0/0 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+192.168.0.1	Apr 04 17:51:19		local7	err	84	*Apr  4 22:51:23.362: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/0, changed state to down
+192.168.0.1	Apr 04 17:51:19		local7	notice	85	*Apr  4 22:51:24.362: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/0, changed state to down
+192.168.0.1	Apr 04 17:51:24		local7	err	86	*Apr  4 22:51:28.501: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/0, changed state to up
+192.168.0.1	Apr 04 17:51:24		local7	notice	87	*Apr  4 22:51:29.501: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/0, changed state to up
+10.0.0.2	Apr 04 17:52:10		local7	notice	94	*Apr  4 17:51:39.361: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.0.1 on GigabitEthernet0/0/0 from LOADING to FULL, Loading Done
+192.168.0.1	Apr 04 17:52:10		local7	notice	88	*Apr  4 22:52:14.313: %OSPF-5-ADJCHG: Process 1, Nbr 10.0.0.2 on GigabitEthernet0/0/0 from LOADING to FULL, Loading Done
+192.168.0.4	Apr 04 17:56:39		local7	err	63	*Apr  4 16:54:16.547: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.4	Apr 04 17:56:40		local7	notice	64	*Apr  4 16:54:17.546: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.4	Apr 04 17:56:43		local7	err	65	*Apr  4 16:54:20.502: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.4	Apr 04 17:56:44		local7	notice	66	*Apr  4 16:54:21.502: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:00:12		local7	warning	88	*Apr  4 04:45:53.790: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+192.168.0.1	Apr 04 18:01:18		local7	notice	89	*Apr  4 23:01:22.827: %SYS-5-CONFIG_I: Configured from console by console
+192.168.0.2	Apr 04 18:01:21		local7	notice	89	*Apr  4 04:47:02.010: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named S1.ccna.lab has been generated or imported by crypto-engine
+192.168.0.2	Apr 04 18:03:17		local7	notice	90	*Apr  4 04:48:58.725: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: alec] [Source: 192.168.0.3] [localport: 22] at 04:48:58 UTC Tue Apr 4 2023
+192.168.0.2	Apr 04 18:03:31		local7	info	91	*Apr  4 04:49:12.446: %SYS-6-LOGOUT: User alec has exited tty session 2(192.168.0.3)
+192.168.0.2	Apr 04 18:07:02		local7	notice	92	*Apr  4 04:52:44.011: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: alec] [Source: 192.168.0.3] [localport: 22] at 04:52:44 UTC Tue Apr 4 2023
+192.168.0.2	Apr 04 18:07:11		local7	info	93	*Apr  4 04:52:51.961: %SYS-6-LOGOUT: User alec has exited tty session 3(192.168.0.3)
+192.168.0.4	Apr 04 18:07:30		local7	notice	67	*Apr  4 17:05:07.203: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:07:30		local7	err	94	*Apr  4 04:53:11.542: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.4	Apr 04 18:07:31		local7	err	68	*Apr  4 17:05:08.207: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:07:31		local7	notice	95	*Apr  4 04:53:12.542: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:07:34		local7	err	96	*Apr  4 04:53:15.786: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:07:34		local7	notice	97	*Apr  4 04:53:16.786: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.4	Apr 04 18:07:34		local7	err	69	*Apr  4 17:05:11.932: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.4	Apr 04 18:07:35		local7	notice	70	*Apr  4 17:05:12.932: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:08:00		local7	notice	98	*Apr  4 04:53:41.285: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:08:00		local7	notice	99	*Apr  4 04:53:41.436: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to down
+192.168.0.2	Apr 04 18:08:00		local7	notice	100	*Apr  4 04:53:41.438: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel1, changed state to down
+192.168.0.2	Apr 04 18:08:01		local7	err	101	*Apr  4 04:53:42.289: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:08:01		local7	err	102	*Apr  4 04:53:42.441: %LINK-3-UPDOWN: Interface Port-channel1, changed state to down
+192.168.0.2	Apr 04 18:08:01		local7	err	103	*Apr  4 04:53:42.445: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to down
+192.168.0.2	Apr 04 18:09:03		local7	err	104	*Apr  4 04:54:45.044: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:09:03		local7	err	105	*Apr  4 04:54:45.197: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up
+192.168.0.2	Apr 04 18:09:03		local7	notice	106	*Apr  4 04:54:46.044: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:09:04		local7	notice	107	*Apr  4 04:54:46.197: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to up
+192.168.0.2	Apr 04 18:09:05		local7	err	108	*Apr  4 04:54:46.930: %LINK-3-UPDOWN: Interface Port-channel1, changed state to up
+192.168.0.2	Apr 04 18:09:05		local7	notice	109	*Apr  4 04:54:47.930: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel1, changed state to up
+192.168.0.1	Apr 04 18:10:12		local7	notice	90	*Apr  4 23:10:16.485: %OSPF-5-ADJCHG: Process 1, Nbr 10.0.0.2 on GigabitEthernet0/0/0 from FULL to DOWN, Neighbor Down: Interface down or detached
+192.168.0.1	Apr 04 18:10:14		local7	warning	91	*Apr  4 23:10:18.954: %OSPF-4-DUP_RTRID_NBR: OSPF detected duplicate router-id 10.0.0.2 from 10.0.0.2 on interface GigabitEthernet0/0/0
+192.168.0.1	Apr 04 18:10:27		local7	notice	92	*Apr  4 23:10:31.961: %OSPF-5-ADJCHG: Process 1, Nbr 10.0.0.2 on GigabitEthernet0/0/0 from LOADING to FULL, Loading Done
+10.0.0.2	Apr 04 18:10:51		local7	notice	97	*Apr  4 18:10:21.503: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.0.1 on GigabitEthernet0/0/0 from FULL to DOWN, Neighbor Down: Dead timer expired
+192.168.0.2	Apr 04 18:14:39		local7	notice	110	*Apr  4 05:00:20.674: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:14:40		local7	err	111	*Apr  4 05:00:21.678: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.4	Apr 04 18:14:41		local7	err	91	*Apr  4 17:12:18.221: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.4	Apr 04 18:14:50		local7	err	92	*Apr  4 17:12:27.434: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.4	Apr 04 18:14:50		local7	notice	93	*Apr  4 17:12:28.434: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:14:50		local7	err	112	*Apr  4 05:00:31.300: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:14:50		local7	notice	113	*Apr  4 05:00:32.300: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.4	Apr 04 18:14:55		local7	notice	94	*Apr  4 17:12:32.576: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:14:55		local7	notice	114	*Apr  4 05:00:36.838: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.4	Apr 04 18:14:56		local7	err	95	*Apr  4 17:12:33.583: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:14:56		local7	err	115	*Apr  4 05:00:37.841: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to down
+192.168.0.2	Apr 04 18:15:03		local7	err	116	*Apr  4 05:00:44.682: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.4	Apr 04 18:15:03		local7	err	96	*Apr  4 17:12:40.823: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.2	Apr 04 18:15:04		local7	notice	117	*Apr  4 05:00:45.692: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.4	Apr 04 18:15:04		local7	notice	97	*Apr  4 17:12:41.830: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/23, changed state to up
+192.168.0.1	Apr 04 18:21:52		local7	info	93	*Apr  4 23:21:57.068: %FMANFP-6-IPACCESSLOGNP:  SIP1: fman_fp_image:  list 1 permitted 89 10.0.0.2 -> 224.0.0.5, 1 packet
+192.168.0.1	Apr 04 18:21:52		local7	info	94	*Apr  4 23:21:57.198: %FMANFP-6-IPACCESSLOGDP:  SIP1: fman_fp_image:  list 1 denied icmp 192.168.0.3 -> 10.0.0.2 (8/0), 1 packet
+10.0.0.2	Apr 04 18:23:33		local7	notice	98	*Apr  4 18:23:02.709: %SYS-5-CONFIG_I: Configured from console by console
+192.168.0.1	Apr 04 18:23:34		local7	info	95	*Apr  4 23:23:38.660: %FMANFP-6-IPACCESSLOGP:  SIP1: fman_fp_image:  list 1 permitted udp 10.0.0.2(62818) -> 192.168.0.3(514), 1 packet
+192.168.0.2	Apr 04 18:23:49		local7	info	118	*Apr  4 05:09:31.411: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+192.168.0.2	Apr 04 18:23:50		local7	notice	119	*Apr  4 05:09:31.411: %SYS-5-CONFIG_I: Configured from console by console
+192.168.0.4	Apr 04 18:23:54		local7	info	98	*Apr  4 17:21:33.539: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+192.168.0.4	Apr 04 18:23:56		local7	notice	99	*Apr  4 17:21:33.539: %SYS-5-CONFIG_I: Configured from console by console

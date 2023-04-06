@@ -1,8 +1,8 @@
-from msilib.schema import Error
 import openai
 import os
 class OpenAI:
   context_prompt = "Respond with a possible fix or cause for the following errors"
+  
   max_generation = 500
   model_lookup = {0: "text-davinci-003", 1: "gpt-3.5-turbo", 2: "gpt-4"}
   model = 0
@@ -21,6 +21,16 @@ class OpenAI:
     except:
       output = "Error in settings"
     return output
-  
-
-  
+  def configGenerate(self, config_prompt):
+    try:
+      prompt_file = open(os.getcwd() + "/prompts/Cisco-Config-Generation.txt")
+      context_prompt = prompt_file.readline()
+      output = openai.Completion.create(
+        model=self.model_lookup[self.model],
+        prompt= context_prompt + "\n" + config_prompt,
+        max_tokens= self.max_generation, #max tokens to generate
+        temperature= 0 #randomness, between 0 and 2, higher values will make output more random
+      )
+    except:
+      output = "Error in settings"
+    return output
