@@ -18,9 +18,11 @@ print("Neural Network Automation =====================")
 print("Generating traffic...")
 from generator import IncidentGenerator
 incidents = IncidentGenerator()
-with open(os.getcwd() + "/syslog/sonnam", "w+") as output:
-    for i in incidents.incidents:
-        output.write(i + "\n")
+# Incident Generation
+# incidents.generateIncidents(30)
+# with open(os.getcwd() + "/syslog/sonnam", "w+") as output:
+#     for i in incidents.incidents:
+#         output.write(i + "\n")
 ai = OpenAI()
 flushBuffer()
 print("Neural Network Automation =====================")

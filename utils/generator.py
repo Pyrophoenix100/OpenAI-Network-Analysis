@@ -6,10 +6,7 @@ Rquesting here the trafficgenlib.generate_device_metric_time_range() function to
 with 60 minute frequency, for device PE-4 and specifically for the metric of interest bng_subscribers.
 '''
 class IncidentGenerator:
-    incident_policy = trafficgenlib.generate_incident_policy()
-    event_templates = trafficgenlib.generate_event_templates()
-    device_inventory = trafficgenlib.generate_device_inventory()
-    interface_inventory = trafficgenlib.generate_interface_inventory()
+    incidents = []
 
     #Changed frequency to 60 from 5, significantly faster execution
     #Generates the same device with different timestamp/bng_subscribers.
@@ -18,6 +15,8 @@ class IncidentGenerator:
         self.incidents = []
 
     def listIncidents(self):
+        if (self.incidents == []):
+            print("No incidents loaded")
         for i, j in enumerate(self.incidents):
             print("(" + str(i) + "): " + j)
 
@@ -38,10 +37,15 @@ class IncidentGenerator:
         for i in incident_list:
             output += str(i) + "\n"
         return output
+    
     def loadIncidents(self, incident_list):
         self.incidents = incident_list
     
-    def generateIncident(self, length):
-        incidents = trafficgenlib.run_incidents_on_events(dt.datetime.now(), self.incident_policy, self.event_templates, length, self.device_inventory, self.interface_inventory)
+    def generateIncidents(self, length):
+        incident_policy = trafficgenlib.generate_incident_policy()
+        event_templates = trafficgenlib.generate_event_templates()
+        device_inventory = trafficgenlib.generate_device_inventory()
+        interface_inventory = trafficgenlib.generate_interface_inventory()
+        incidents = trafficgenlib.run_incidents_on_events(dt.datetime.now(), incident_policy, event_templates, length, device_inventory, interface_inventory)
         for i, j in enumerate(incidents):
             self.incidents.append(j['message'])
