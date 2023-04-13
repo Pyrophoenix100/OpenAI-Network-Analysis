@@ -1,4 +1,4 @@
-import trafficgenlib
+import utils.trafficgenlib as trafficgenlib
 import datetime as dt
 import json
 '''

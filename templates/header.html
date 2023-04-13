@@ -1,0 +1,110 @@
+<head>
+    <title>Syslog Analyzer</title>
+</head>
+<body>
+
+<div id="header">
+    <h1>
+        Neural Network Analysis
+    </h1>
+    <h2>
+        OpenAI Syslog Analyzer
+        <span style="float: right;">
+            Alec Tuchscherer
+        </span>
+    </h2>
+</div>
+<div id='header-block'></div>
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul class=flashes>
+        {% for category, message in messages %}
+            <li class="flash {{ category }}">{{ message }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+</body>
+<style>
+    #header-block {
+        height: 90px;
+    }
+    #header {
+        background-color: #3B4252;
+        border-bottom: 2px solid #5E81AC;
+        box-shadow: 0px 3px 3px #2f3441;
+        height: 90px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      
+      #header h1 {
+        color: #5E81AC ;
+        font-family: Arial, sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 0;
+        line-height: 50px;
+        padding-left: 20px;
+      }
+      
+      #header h2 {
+        color: #5E81AC ;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin: 0;
+        padding: 0 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      body {
+        background-color: #354155;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #4C566A; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #D8DEE9; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #a7adb8; 
+      }
+      /* Flashes */
+      .flash {
+        list-style: none;
+        width: 95%;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+      }
+      .error {
+        background-color: #CF6679;
+      }
+      input[type='submit'] {
+        color: #5E81AC;
+        background-color: #4C566A;
+        border: 2px solid #5E81AC;
+      }
+      input[type='number'] {
+        color: #354155;
+      }
+      * {
+        color: #ECEFF4;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+</style>

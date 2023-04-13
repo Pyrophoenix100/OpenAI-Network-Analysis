@@ -1,0 +1,16 @@
+{% include 'header.html' %}
+<body>
+    <p>
+        Please load a syslog file to begin
+    </p>
+    <form method="post" enctype="multipart/form-data" action="/import_syslog">
+        <input type="file" name="file">
+        <input type="submit">
+    </form>
+</body>
+<style>
+    p, input[type='file'] { 
+        color: #ECEFF4;
+    }
+
+</style>
