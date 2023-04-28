@@ -1,4 +1,4 @@
-import utils.trafficgenlib as trafficgenlib
+import utils.trafficgenlib
 import datetime as dt
 import json
 '''
@@ -7,6 +7,7 @@ with 60 minute frequency, for device PE-4 and specifically for the metric of int
 '''
 class IncidentGenerator:
     incidents = []
+
     #Changed frequency to 60 from 5, significantly faster execution
     #Generates the same device with different timestamp/bng_subscribers.
     def __init__(self):
