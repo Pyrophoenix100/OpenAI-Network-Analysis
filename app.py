@@ -17,6 +17,7 @@ def import_syslog():
         start = int(request.args.get('start'))
         end = int(request.args.get('end'))
         prompt = incidents.generateIncidentsPrompt(incidents.generateNumberIncidents(start, end))
+        print(prompt)
         analysis = ai.analyze(prompt)
         result = analysis.choices[0].text
         return render_template('import_syslog.html', incidents=enumerate(incidents.incidents), result=result)
