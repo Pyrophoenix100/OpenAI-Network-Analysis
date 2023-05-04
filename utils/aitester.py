@@ -1,8 +1,6 @@
 import openaiapi
 ai = openaiapi.OpenAI()
 ai.context_prompt = ""
-while (True):
-    response = ai.analyze(input("Ask the bot > "))
-    print(response.choices[0].text)
-    
-
+contextDictArray = []
+ai.context.append({"role": "system", "content": "You are a helpful assistant, that will start every message with Eureka!"})
+message = input("Ask the bot > ")
